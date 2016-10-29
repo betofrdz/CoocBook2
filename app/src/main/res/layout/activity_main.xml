@@ -1,0 +1,155 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="6"
+    android:columnCount="3"
+    android:orientation="vertical"
+    android:background="#FFF789"
+    android:useDefaultMargins="true">
+
+    <ImageButton
+        android:id="@+id/imageEntradas"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:src="@drawable/entradas"
+        android:scaleType="centerCrop"
+        android:background="#FFF789"
+        android:layout_columnWeight="3"/>
+    <TextView
+        android:id="@+id/textEntradas"
+        android:text="Entradas"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_columnWeight="0.3"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/imageCarnes"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:src="@drawable/carnes"
+        android:scaleType="centerCrop"
+        android:background="#FFF789"
+        android:layout_columnWeight="3"/>
+    <TextView
+        android:id="@+id/textCarnes"
+        android:text="Carnes y Aves"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_columnWeight="0.3"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/imageGuarniciones"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:src="@drawable/guarniciones"
+        android:scaleType="centerCrop"
+        android:background="#FFF789"
+        android:layout_columnWeight="3"/>
+    <TextView
+        android:id="@+id/textGuarniciones"
+        android:text="Guarniciones"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_columnWeight="0.4"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/imageEnsaladas"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ensaladas"
+        android:scaleType="centerCrop"
+        android:background="#FFF789"
+        android:layout_columnWeight="3"/>
+    <TextView
+        android:id="@+id/textEnsaladas"
+        android:text="Ensaladas"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_columnWeight="0.3"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/imagePastas"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pastas"
+        android:scaleType="centerCrop"
+        android:background="#FFF789"
+        android:layout_columnWeight="3"/>
+    <TextView
+        android:id="@+id/textPastas"
+        android:text="Pastas, Huevos y Arroces"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_columnWeight="0.3"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/imageDesayunos"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:src="@drawable/desayunos"
+        android:scaleType="centerCrop"
+        android:background="#FFF789"
+        android:layout_columnWeight="3"/>
+    <TextView
+        android:id="@+id/textDesayunos"
+        android:text="Desayunos"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_columnWeight="0.4"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/imageSopas"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:src="@drawable/sopas"
+        android:scaleType="centerCrop"
+        android:background="#FFF789"
+        android:layout_columnWeight="3"/>
+    <TextView
+        android:id="@+id/textSopas"
+        android:text="Sopas, Cremas y Caldos"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_columnWeight="0.3"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/imagePescados"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pescados"
+        android:scaleType="centerCrop"
+        android:background="#FFF789"
+        android:layout_columnWeight="3"/>
+    <TextView
+        android:id="@+id/textPescados"
+        android:text="Pescados y Mariscos"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_columnWeight="0.3"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/imagePostres"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:src="@drawable/postres"
+        android:scaleType="centerCrop"
+        android:background="#FFF789"
+        android:layout_columnWeight="3"/>
+    <TextView
+        android:id="@+id/textPostres"
+        android:text="Postres y Bebidas"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_columnWeight="0.4"
+        android:textAlignment="center"/>
+
+</GridLayout>
