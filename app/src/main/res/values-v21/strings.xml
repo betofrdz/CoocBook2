@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carnes_y_aves">Carnes y Aves</string>
+    <string name="desayunos">Desayunos</string>
+    <string name="entradas">Entradas</string>
+    <string name="guarniciones">Guarniciones</string>
+    <string name="pastas_huevos_y_arroces">Pastas, Huevos y Arroces</string>
+    <string name="pescados_y_mariscos">Pescados y Mariscos</string>
+    <string name="postres_y_bebidas">Postres y Bebidas</string>
+</resources>
