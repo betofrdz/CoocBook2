@@ -27,7 +27,11 @@
         <activity android:name=".MainCarnes" />
         <activity android:name=".MainSopas" />
         <activity android:name=".Main3Activity" />
-        <activity android:name=".MainPastas"></activity>
+        <activity android:name=".MainPastas" />
+        <activity android:name=".MainPostres" />
+        <activity android:name=".MainPescados" />
+        <activity android:name=".MainDesayunos" />
+        <activity android:name=".MainGuarniciones"></activity>
     </application>
 
 </manifest>
