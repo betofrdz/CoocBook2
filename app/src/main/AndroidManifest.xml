@@ -37,11 +37,6 @@
         <activity android:name=".MainPescados" />
         <activity android:name=".MainDesayunos" />
         <activity android:name=".MainGuarniciones" />
-        <activity android:name=".MainBuscar" />
-        <activity android:name=".MainFavoritos" />
-        <activity android:name=".MainGlosario" />
-        <activity android:name=".MainMisRecetas" />
-        <activity android:name=".MainPrincipal"></activity>
     </application>
 
 </manifest>
