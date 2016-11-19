@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_libro"
+            android:icon="@drawable/ic_libro"
+            android:title="Libro de recetas" />
+        <item
+            android:id="@+id/nav_favoritos"
+            android:icon="@drawable/ic_favs"
+            android:title="Favoritas" />
+        <item
+            android:id="@+id/nav_misrecetas"
+            android:icon="@drawable/ic_folder"
+            android:title="Mis recetas" />
+        <item
+            android:id="@+id/nav_buscar"
+            android:icon="@drawable/buscar_ic"
+            android:title="Buscar" />
+        <item
+            android:id="@+id/nav_glosario"
+            android:icon="@drawable/ic_glos"
+            android:title="Glosario" />
+    </group>
+
+
+</menu>
