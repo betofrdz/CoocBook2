@@ -1,0 +1,153 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="6"
+    android:columnCount="3"
+    android:orientation="vertical"
+    android:background="#FFF789"
+    android:useDefaultMargins="true">
+
+    <TextView
+        android:text="Agrega tus recetas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:id="@+id/tvrecetas"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/etDescripcion"
+        android:textColor="?android:attr/detailsElementBackground"
+        android:textSize="36sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Num. Receta"
+        android:ems="10"
+        android:id="@+id/etId"
+        android:hint="Id"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="?android:attr/detailsElementBackground" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Nombre de la receta"
+        android:ems="10"
+        android:id="@+id/etNombre"
+        android:hint="Nombre"
+        tools:background="?attr/actionMenuTextColor"
+        android:background="@android:color/white"
+        android:padding="5sp"
+        android:paddingLeft="10sp"
+        android:layout_below="@+id/tvrecetas"
+        android:layout_alignParentStart="true"
+        tools:textColor="?android:attr/windowBackgroundFallback"
+        android:textSize="24sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:text="Agrega aqui la receta"
+        android:ems="10"
+        android:id="@+id/etDescripcion"
+        android:hint="Descripcion"
+        tools:layout_alignBottom="@+id/etNombre"
+        android:paddingBottom="2px"
+        android:paddingLeft="2px"
+        android:paddingRight="3px"
+        android:paddingEnd="2px"
+        android:paddingTop="2px"
+        android:paddingStart="2px"
+        android:padding="2px"
+        android:background="?android:attr/textColorSecondaryInverseNoDisable"
+        android:maxHeight="560px"
+        android:scrollHorizontally="true"
+        android:scrollbars="horizontal"
+        android:textColor="#303030"
+        tools:textSize="24sp"
+        android:width="560px"
+        android:height="500px"
+        android:layout_marginLeft="2px"
+        android:layout_marginRight="2px"
+        android:textSize="22sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation ="vertical"
+    android:layout_below="@+id/tvrecetas"
+    android:gravity="top|right"
+    tools:layout_alignRight="@+id/tvrecetas"
+    android:layout_alignParentRight="true">
+
+
+
+    <Button
+        android:text="Agregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignStart="@+id/tvrecetas"
+        android:id="@+id/btnAgregar"
+        android:layout_weight="1"/>
+    <Button
+    android:text="Borrar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btnAgregar"
+    android:layout_alignStart="@+id/tvrecetas"
+    android:id="@+id/btnBorrar"
+        android:layout_weight="1"/>
+    <Button
+    android:text="Buscar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btnBorrar"
+    android:layout_alignStart="@+id/tvrecetas"
+    android:id="@+id/btnBuscar"
+        android:layout_weight="1"/>
+    <Button
+    android:text="UpDate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btnBuscar"
+    android:layout_alignStart="@+id/tvrecetas"
+    android:id="@+id/btnActualizar"
+        android:layout_weight="1"/>
+        <Button
+            android:text="Subir imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/button2" />
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_height="260px"
+        app:srcCompat="@android:color/darker_gray"
+        android:id="@+id/imageView5"
+        android:width="@android:dimen/notification_large_icon_width"
+        android:height="@dimen/activity_vertical_margin"
+        tools:width="320dp"
+        tools:height="260dp"
+        android:scaleType="fitEnd"
+        android:layout_width="360px"
+        android:background="@drawable/logo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

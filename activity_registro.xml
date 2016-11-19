@@ -1,0 +1,137 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="6"
+    android:columnCount="3"
+    android:orientation="vertical"
+    android:background="#FFF789"
+    android:useDefaultMargins="true">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation ="vertical"
+        android:background="@android:drawable/progress_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:text="Registrarse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:id="@+id/tvtitulo"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:layout_alignStart="@+id/etNombre"
+            android:textColor="?android:attr/detailsElementBackground"
+            android:textSize="34sp"
+            android:textStyle="normal|bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp" />
+
+        <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:ems="10"
+    android:id="@+id/etNombre"
+    android:hint="Usuario"
+    tools:background="?attr/actionMenuTextColor"
+    android:background="@android:color/white"
+    android:padding="5sp"
+    android:paddingLeft="10sp"
+    android:layout_below="@+id/tvNombre"
+            android:layout_alignParentTop="true"
+    tools:textColor="?android:attr/windowBackgroundFallback"
+    android:textSize="18sp" />
+        <EditText android:id="@+id/txtEmail" android:layout_marginTop="15dip" android:layout_height="wrap_content"
+            android:layout_width="fill_parent" android:hint="Email" android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/etPass"
+            android:hint="Contraseña"
+            tools:background="?attr/actionMenuTextColor"
+            android:background="@android:color/white"
+            android:padding="5sp"
+            android:paddingLeft="10sp"
+            android:layout_below="@+id/tvPass"
+            android:layout_alignParentStart="true"
+            tools:textColor="?android:attr/windowBackgroundFallback"
+            android:textSize="18sp" />
+
+        <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etPassVerify"
+        android:hint="Confirmar contraseña"
+        tools:background="?attr/actionMenuTextColor"
+        android:background="@android:color/white"
+        android:padding="5sp"
+        android:paddingLeft="10sp"
+        android:layout_below="@+id/tvPassVerify"
+        android:layout_alignParentStart="true"
+        tools:textColor="?android:attr/windowBackgroundFallback"
+        android:textSize="18sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation ="vertical"
+            android:gravity="top|right"
+            tools:layout_alignRight="@+id/tvrecetas"
+            android:layout_alignParentRight="true">
+
+
+
+            <Button
+                android:text="Registrarse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignStart="@+id/tvtitulo"
+                android:id="@+id/btnRegister"
+                android:layout_weight="1"/>
+
+
+            <Button
+                android:text="Subir imagen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/btnSubir" />
+
+        </LinearLayout>
+        <TextView android:id="@+id/link_to_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:layout_marginBottom="40dip"
+            android:text="Ya tienes cuenta! Accede!"
+            android:gravity="center"
+            android:textSize="20dip"
+            android:textColor="#0b84aa"/>
+
+        <TextView android:id="@+id/register_error"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:layout_marginBottom="40dip"
+
+            android:gravity="center"
+            android:textSize="20dip"
+            android:textColor="#0b84aa"/>
+</LinearLayout>
+
+
+
+</RelativeLayout>
